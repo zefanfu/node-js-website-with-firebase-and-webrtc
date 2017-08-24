@@ -1,4 +1,4 @@
-# a node js website with firebase to login and webrtc to video chat
+# A node js website with firebase to login and webrtc to video chat
 
 This website allow user to login with their firebase account and then start video chat with other users. I have tested video chat with other clients from Android and PC browser.
 
