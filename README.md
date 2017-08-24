@@ -1,30 +1,7 @@
-# ProjectRTC
+# a node js website with firebase to login and webrtc to video chat
 
-## WebRTC Live Streaming
+This website allow user to login with their firebase account and then start video chat with other users. I have tested video chat with other clients from Android and PC browser.
 
-- Node.js server
-- Desktop client
-- [Android client](https://github.com/pchab/AndroidRTC)
+This project is modified based on existing sever code from https://github.com/pchab/ProjectRTC
 
-You can also check this iOS client from Digix Technology:
-
-- [iOS client](https://github.com/digixtechnology/iOSRTC)
-
-The signaling part is done with [socket.io](socket.io).
-The client is built with [angularjs](https://angularjs.org/).
-
-## Install
-
-It requires [node.js](http://nodejs.org/download/)
-
-* git clone https://github.com/pchab/ProjectRTC.git
-* cd ProjectRTC/
-* npm install
-* npm start
-
-The server will run on port 3000.
-You can test it in the (Chrome or Firefox) browser at localhost:3000.
-
-## Author
-
-- [Pierre Chabardes](mailto:pierre@chabardes.net)
+I add firebase connection to this server and defined several socket message type. Change angular js module by sending firebase id, stop camera logic and remove stream after getting disconnected message. 
